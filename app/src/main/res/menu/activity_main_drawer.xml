@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_recomendacion"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Recomendación" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Contáctenos" />
+        <item
+            android:id="@+id/nav_dondeEncontrar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="¿Dónde encontrarnos?" />
+
+        <item
+            android:id="@+id/nav_sitios"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sitios de Interés" />
+
+        <item
+            android:id="@+id/nav_sobreNosotros"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sobre Nosotros" />
+    </group>
+
+
+</menu>
